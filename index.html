@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneShop</title>
+    <!-- bootstrap css link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fav icon  -->
+    <link rel="shortcut icon" href="images/cartoon.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Shop Name  -->
+    <h2 class="text-center text-success mt-4">Hazrat Ali Phoneshop</h2>
+
+
+    <!-- search box & button  -->
+    <div class="input-group mb-3 mt-4 w-50 mx-auto ">
+        <input id="search-field" type="text" class="form-control " placeholder="Search Your Phone" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="searchPhone()" class="btn btn-outline-success ms-2" type="button" id="search-button">Search</button>
+    </div>
+
+
+    <!-- error text message  -->
+    <div id="error" class="text-center text-danger mt-3" >
+        
+    </div>
+
+
+    <!-- display single see details result -->
+    <div id="single-seeDetails" class="w-50 mx-auto">
+
+    </div>
+
+
+    <!-- display search result and add a card dynamically -->
+    <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+
+    </div>
+
+     
+    
+  
+    <!-- bootstrap js link  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom js  -->
+    <script src="js/app.js"></script>
+</body>
+</html>
